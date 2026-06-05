@@ -1,0 +1,50 @@
+ 
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+
+    <title>30.08.2026</title>
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1 class="title">Bryllupsgave</h1>
+        <p class="monthPicker">Vælg en måned</p>
+        <div class="dropdown">
+            <select id="monthSelect">
+                <option value="">--</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="Oktober">Oktober</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+              </select>
+        </div>
+        <div class="counter" id="counter">
+            -- 
+          </div>
+
+          <div class="nextArrow">→</div>
+    </div>
+
+    <div class="cards-carousel-container">
+        <h2 class="cards-title">Honeymoon idéer</h2>
+        <button class="carousel-arrow left">&larr;</button>
+        <div class="cards-carousel">
+          <!-- Cards will be injected here -->
+        </div>
+        <button class="carousel-arrow right">&rarr;</button>
+      </div>
+      <div id="selectedAmount" class="selected-amount">
+        <!-- Amount will appear here -->
+    </div>
+</body>
+
+<script src="js/container.js"></script>
+<script src="js/cards.js"></script>
+
+</html>
